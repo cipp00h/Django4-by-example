@@ -1,0 +1,37 @@
+# Python 관련
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# 환경 설정 파일
+.env
+*.env
+
+# 가상 환경 디렉터리
+my_env/
+venv/
+env/
+.virtualenv/
+
+# IDE 관련 파일
+.vscode/
+.idea/
+
+# Django 관련
+db.sqlite3
+/static/
+media/
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# 기타
+*.log
+.DS_Store
+*.swp
+*.swo
